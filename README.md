@@ -13,7 +13,7 @@ Tech Stack:
 - React Native Vector Icons
 - Typescript
 
-Build with React Hooks & Atomic Design Pattern
+Built with React Hooks & Atomic Design Pattern
 ```
 
 ![Screen Shot 2022-08-04 at 23 24 43](https://user-images.githubusercontent.com/30662967/182903547-abdd17b4-d6d5-400e-9e0c-65f0a11e5a3e.png)
