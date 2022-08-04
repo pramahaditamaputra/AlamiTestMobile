@@ -3,7 +3,8 @@
 ALAMI Mobile Engineer - Technical Test
 Author: Pramahadi Tama Putra
 
-![ScreenShootApp](https://drive.google.com/file/d/1z4AoPOTxvDgxZELQcRrzg5zx07SkvmZB/view?usp=sharing)
+![Screen Shot 2022-08-04 at 23 24 43](https://user-images.githubusercontent.com/30662967/182903547-abdd17b4-d6d5-400e-9e0c-65f0a11e5a3e.png)
+
 
 # Run App on Local Machine
 
