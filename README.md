@@ -3,6 +3,14 @@
 ```
 ALAMI Mobile Engineer - Technical Test
 Author: Pramahadi Tama Putra
+
+Tech Stack:
+- React Native
+- React Navigation
+- Redux, React-Redux, Redux-Thunk
+- Axios
+- React Native Flash Message
+_ React Native Vector Icons
 ```
 
 ![Screen Shot 2022-08-04 at 23 24 43](https://user-images.githubusercontent.com/30662967/182903547-abdd17b4-d6d5-400e-9e0c-65f0a11e5a3e.png)
