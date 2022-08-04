@@ -5,8 +5,8 @@ ALAMI Mobile Engineer - Technical Test
 Author: Pramahadi Tama Putra
 
 Tech Stack:
-- React Native
-- React Navigation
+- React Native Version 0.66.4
+- React Navigation Version 5.x
 - Redux, React-Redux, Redux-Thunk
 - Axios
 - React Native Flash Message
