@@ -1,7 +1,9 @@
 # ALAMI Mobile Engineer - Technical Test
 
+```
 ALAMI Mobile Engineer - Technical Test
 Author: Pramahadi Tama Putra
+```
 
 ![Screen Shot 2022-08-04 at 23 24 43](https://user-images.githubusercontent.com/30662967/182903547-abdd17b4-d6d5-400e-9e0c-65f0a11e5a3e.png)
 
@@ -12,6 +14,7 @@ Author: Pramahadi Tama Putra
 ```
 NodeJS Version 14.18.2
 React Native CLI
+Yarn
 ```
 
 ### Run App on Android
