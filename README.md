@@ -43,6 +43,5 @@ Last Run Command yarn ios
 
 ### If i get more time to build this app
 ```
-- I will research to make a good mock up design before implement to the code
-- Enhanced code more strongly type
+I will research to make a good mock up design before implement to the code, Enhanced code more strongly type with Typescript
 ```
