@@ -17,10 +17,32 @@ export const getProductBySearch = (keyword: string) => async dispatch => {
   }
 };
 
+export const getAllProducts = () => async dispatch => {
+  try {
+    dispatch({type: ActionTypes.SET_LOADING, payload: true});
+    const res = await productService.getProductBySearch('');
+    if (res?.code >= 400 && res?.code <= 405) {
+      throw new Error(res.message);
+    }
+    await dispatch({
+      type: ActionTypes.GET_ALL_PRODUCTS,
+      payload: res.data,
+    });
+    dispatch({type: ActionTypes.SET_LOADING, payload: false});
+  } catch (error: any) {
+    dispatch({type: ActionTypes.SET_LOADING, payload: false});
+    dispatch({type: ActionTypes.GET_PRODUCTS_FAILED, payload: []});
+    console.log(error.message);
+  }
+};
+
 export const getProductBySellerId = (sellerId: number) => async dispatch => {
   try {
     dispatch({type: ActionTypes.SET_LOADING, payload: true});
     const res = await productService.getProductBySellerId(sellerId);
+    if (res?.code >= 400 && res?.code <= 405) {
+      throw new Error(res.message);
+    }
     await dispatch({
       type: ActionTypes.GET_PRODUCT_BY_SELLER_ID,
       payload: res.data,
@@ -28,6 +50,7 @@ export const getProductBySellerId = (sellerId: number) => async dispatch => {
     dispatch({type: ActionTypes.SET_LOADING, payload: false});
   } catch (error: any) {
     dispatch({type: ActionTypes.SET_LOADING, payload: false});
+    dispatch({type: ActionTypes.GET_PRODUCTS_FAILED, payload: []});
     console.log(error.message);
   }
 };
@@ -36,7 +59,9 @@ export const addProduct = (product: object) => async dispatch => {
   try {
     dispatch({type: ActionTypes.SET_LOADING, payload: true});
     const res = await productService.addProduct(product);
-    if (res?.code === 400) throw new Error(res.message);
+    if (res?.code >= 400 && res?.code <= 405) {
+      throw new Error(res.message);
+    }
     dispatch({type: ActionTypes.SET_LOADING, payload: false});
     showMessage('Success: New Product has been added', 'success');
   } catch (error: any) {

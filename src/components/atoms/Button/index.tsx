@@ -3,8 +3,8 @@ import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 const Button: React.FC = ({
   text,
-  color = '#FFC700',
-  textColor = '#020202',
+  color = '#03B2E0',
+  textColor = '#FFF',
   onPress,
 }) => {
   return (

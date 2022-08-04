@@ -1,4 +1,4 @@
-import {StyleSheet, View, FlatList} from 'react-native';
+import {StyleSheet, View, FlatList, SafeAreaView} from 'react-native';
 import React, {useEffect} from 'react';
 import {
   EmptyState,
@@ -8,10 +8,7 @@ import {
   SearchBar,
 } from '../../components';
 import {useDispatch, useSelector} from 'react-redux';
-import {
-  getProductBySearch,
-  getProductBySellerId,
-} from '../../redux/actions/product';
+import {getAllProducts, getProductBySearch} from '../../redux/actions/product';
 import {useForm} from '../../utils';
 
 const SearchProductScreen: React.FC = () => {
@@ -21,13 +18,18 @@ const SearchProductScreen: React.FC = () => {
   const products = useSelector(state => state.productReducer);
   const dispatch = useDispatch();
 
+  useEffect(() => {
+    dispatch(getAllProducts());
+  }, []);
+
   const searchProductBySearch = (keyword: string) => {
+    console.log(form.nama);
     dispatch(getProductBySearch(keyword));
     setForm('reset');
   };
 
   return (
-    <View style={styles.page}>
+    <SafeAreaView style={styles.page}>
       <Header
         title="Products"
         subTitle="Search Product by Product Name Keyword"
@@ -41,7 +43,7 @@ const SearchProductScreen: React.FC = () => {
         />
         <Gap height={25} />
         <FlatList
-          ListEmptyComponent={<EmptyState title="Product Name Empty" />}
+          ListEmptyComponent={<EmptyState title="Empty" />}
           contentContainerStyle={{flexGrow: 1}}
           data={products.data}
           renderItem={({item, index, separators}) => (
@@ -56,7 +58,7 @@ const SearchProductScreen: React.FC = () => {
           keyExtractor={item => item.id}
         />
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -65,8 +67,6 @@ export default SearchProductScreen;
 const styles = StyleSheet.create({
   page: {flex: 1},
   container: {
-    paddingHorizontal: 10,
-    marginTop: 24,
     flex: 1,
   },
 });

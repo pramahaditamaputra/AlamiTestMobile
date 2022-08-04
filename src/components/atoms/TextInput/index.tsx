@@ -18,5 +18,5 @@ export default TextInput;
 
 const styles = StyleSheet.create({
   label: {fontSize: 16, color: '#020202'},
-  input: {borderWidth: 1, borderColor: '#020202', borderRadius: 8, padding: 10},
+  input: {borderWidth: 1, borderColor: '#020202', borderRadius: 8, padding: 10, marginTop: 10},
 });

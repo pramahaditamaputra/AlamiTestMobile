@@ -6,7 +6,9 @@ export const addSeller = (seller: object) => async dispatch => {
   try {
     dispatch({type: ActionTypes.SET_LOADING, payload: true});
     const res = await sellerService.addSeller(seller);
-    if (res?.code === 400) throw new Error(res.message);
+    if (res?.code >= 400 && res?.code <= 405) {
+      throw new Error(res.message);
+    }
     dispatch({type: ActionTypes.SET_LOADING, payload: false});
     showMessage('New Seller has been added', 'success');
   } catch (error: any) {

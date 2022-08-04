@@ -14,6 +14,23 @@
 		6172F2D35A4C3AA820D92908 /* libPods-AlamiTestMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-AlamiTestMobile.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-AlamiTestMobile-AlamiTestMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-AlamiTestMobile-AlamiTestMobileTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C37D8600289C25A1000FF9C8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37D85FF289C25A1000FF9C8 /* File.swift */; };
+		C37D8612289C28B4000FF9C8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8602289C28B4000FF9C8 /* Fontisto.ttf */; };
+		C37D8613289C28B4000FF9C8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8603289C28B4000FF9C8 /* Octicons.ttf */; };
+		C37D8614289C28B4000FF9C8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8604289C28B4000FF9C8 /* Feather.ttf */; };
+		C37D8615289C28B4000FF9C8 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8605289C28B4000FF9C8 /* Entypo.ttf */; };
+		C37D8616289C28B4000FF9C8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8606289C28B4000FF9C8 /* FontAwesome5_Brands.ttf */; };
+		C37D8617289C28B4000FF9C8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8607289C28B4000FF9C8 /* MaterialCommunityIcons.ttf */; };
+		C37D8618289C28B4000FF9C8 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8608289C28B4000FF9C8 /* AntDesign.ttf */; };
+		C37D8619289C28B4000FF9C8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8609289C28B4000FF9C8 /* Foundation.ttf */; };
+		C37D861A289C28B4000FF9C8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D860A289C28B4000FF9C8 /* Ionicons.ttf */; };
+		C37D861B289C28B4000FF9C8 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D860B289C28B4000FF9C8 /* FontAwesome5_Solid.ttf */; };
+		C37D861C289C28B4000FF9C8 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D860C289C28B4000FF9C8 /* FontAwesome5_Regular.ttf */; };
+		C37D861D289C28B4000FF9C8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D860D289C28B4000FF9C8 /* FontAwesome.ttf */; };
+		C37D861E289C28B4000FF9C8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D860E289C28B4000FF9C8 /* Zocial.ttf */; };
+		C37D861F289C28B4000FF9C8 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D860F289C28B4000FF9C8 /* EvilIcons.ttf */; };
+		C37D8620289C28B4000FF9C8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8610289C28B4000FF9C8 /* SimpleLineIcons.ttf */; };
+		C37D8621289C28B4000FF9C8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37D8611289C28B4000FF9C8 /* MaterialIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +59,24 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AlamiTestMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-AlamiTestMobile-AlamiTestMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlamiTestMobile-AlamiTestMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-AlamiTestMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamiTestMobile.debug.xcconfig"; path = "Target Support Files/Pods-AlamiTestMobile/Pods-AlamiTestMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		C37D85FA289C252F000FF9C8 /* AlamiTestMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamiTestMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		C37D85FF289C25A1000FF9C8 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C37D8602289C28B4000FF9C8 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		C37D8603289C28B4000FF9C8 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		C37D8604289C28B4000FF9C8 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		C37D8605289C28B4000FF9C8 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		C37D8606289C28B4000FF9C8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		C37D8607289C28B4000FF9C8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		C37D8608289C28B4000FF9C8 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		C37D8609289C28B4000FF9C8 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		C37D860A289C28B4000FF9C8 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		C37D860B289C28B4000FF9C8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		C37D860C289C28B4000FF9C8 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		C37D860D289C28B4000FF9C8 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		C37D860E289C28B4000FF9C8 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		C37D860F289C28B4000FF9C8 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		C37D8610289C28B4000FF9C8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		C37D8611289C28B4000FF9C8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-AlamiTestMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamiTestMobile.release.xcconfig"; path = "Target Support Files/Pods-AlamiTestMobile/Pods-AlamiTestMobile.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -86,12 +121,15 @@
 		13B07FAE1A68108700A75B9A /* AlamiTestMobile */ = {
 			isa = PBXGroup;
 			children = (
+				C37D8601289C28B4000FF9C8 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				C37D85FA289C252F000FF9C8 /* AlamiTestMobile-Bridging-Header.h */,
+				C37D85FF289C25A1000FF9C8 /* File.swift */,
 			);
 			name = AlamiTestMobile;
 			sourceTree = "<group>";
@@ -137,6 +175,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C37D8601289C28B4000FF9C8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C37D8602289C28B4000FF9C8 /* Fontisto.ttf */,
+				C37D8603289C28B4000FF9C8 /* Octicons.ttf */,
+				C37D8604289C28B4000FF9C8 /* Feather.ttf */,
+				C37D8605289C28B4000FF9C8 /* Entypo.ttf */,
+				C37D8606289C28B4000FF9C8 /* FontAwesome5_Brands.ttf */,
+				C37D8607289C28B4000FF9C8 /* MaterialCommunityIcons.ttf */,
+				C37D8608289C28B4000FF9C8 /* AntDesign.ttf */,
+				C37D8609289C28B4000FF9C8 /* Foundation.ttf */,
+				C37D860A289C28B4000FF9C8 /* Ionicons.ttf */,
+				C37D860B289C28B4000FF9C8 /* FontAwesome5_Solid.ttf */,
+				C37D860C289C28B4000FF9C8 /* FontAwesome5_Regular.ttf */,
+				C37D860D289C28B4000FF9C8 /* FontAwesome.ttf */,
+				C37D860E289C28B4000FF9C8 /* Zocial.ttf */,
+				C37D860F289C28B4000FF9C8 /* EvilIcons.ttf */,
+				C37D8610289C28B4000FF9C8 /* SimpleLineIcons.ttf */,
+				C37D8611289C28B4000FF9C8 /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +206,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-AlamiTestMobile-AlamiTestMobileTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-AlamiTestMobile-AlamiTestMobileTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +268,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -243,7 +303,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37D8612289C28B4000FF9C8 /* Fontisto.ttf in Resources */,
+				C37D861D289C28B4000FF9C8 /* FontAwesome.ttf in Resources */,
+				C37D8619289C28B4000FF9C8 /* Foundation.ttf in Resources */,
+				C37D861C289C28B4000FF9C8 /* FontAwesome5_Regular.ttf in Resources */,
+				C37D861A289C28B4000FF9C8 /* Ionicons.ttf in Resources */,
+				C37D861F289C28B4000FF9C8 /* EvilIcons.ttf in Resources */,
+				C37D8615289C28B4000FF9C8 /* Entypo.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				C37D861E289C28B4000FF9C8 /* Zocial.ttf in Resources */,
+				C37D8620289C28B4000FF9C8 /* SimpleLineIcons.ttf in Resources */,
+				C37D8614289C28B4000FF9C8 /* Feather.ttf in Resources */,
+				C37D8613289C28B4000FF9C8 /* Octicons.ttf in Resources */,
+				C37D8616289C28B4000FF9C8 /* FontAwesome5_Brands.ttf in Resources */,
+				C37D8618289C28B4000FF9C8 /* AntDesign.ttf in Resources */,
+				C37D8621289C28B4000FF9C8 /* MaterialIcons.ttf in Resources */,
+				C37D861B289C28B4000FF9C8 /* FontAwesome5_Solid.ttf in Resources */,
+				C37D8617289C28B4000FF9C8 /* MaterialCommunityIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				C37D8600289C25A1000FF9C8 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-AlamiTestMobile-AlamiTestMobileTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -458,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-AlamiTestMobile-AlamiTestMobileTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = AlamiTestMobileTests/Info.plist;
@@ -498,6 +577,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AlamiTestMobile;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamiTestMobile-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -523,6 +603,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AlamiTestMobile;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamiTestMobile-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

@@ -1,4 +1,4 @@
-import {ScrollView, StyleSheet, View} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet, View} from 'react-native';
 import React from 'react';
 import {Button, Gap, Header, TextInput} from '../../components';
 import {useDispatch} from 'react-redux';
@@ -19,7 +19,7 @@ const AddSellerScreen: React.FC = () => {
   };
 
   return (
-    <View style={styles.page}>
+    <SafeAreaView style={styles.page}>
       <ScrollView>
         <Header title="Seller" subTitle="Add New Seller" />
         <View style={styles.container}>
@@ -40,7 +40,7 @@ const AddSellerScreen: React.FC = () => {
           <Button text="Submit" onPress={onSubmit} />
         </View>
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 };
 
